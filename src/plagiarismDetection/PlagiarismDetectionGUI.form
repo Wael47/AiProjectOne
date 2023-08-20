@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="plagiarismDetection.PlagiarismDetectionGUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-7558913"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="9b266" class="javax.swing.JTextArea" binding="inputStringTextArea">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <font size="18"/>
+          <lineWrap value="true"/>
+          <rows value="0"/>
+          <wrapStyleWord value="false"/>
+        </properties>
+      </component>
+      <grid id="a7173" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6b000" class="javax.swing.JButton" binding="languageModelSelectButton">
+            <constraints border-constraint="East"/>
+            <properties>
+              <text value="Open Model"/>
+            </properties>
+          </component>
+          <component id="59587" class="javax.swing.JLabel" binding="languageModelFileNameLabel">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value=""/>
+              <verticalAlignment value="0"/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="266f9" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="9dff4" class="javax.swing.JLabel" binding="plagiarismRateLabel">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <font size="26"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="2b21e" class="javax.swing.JButton" binding="calculatePlagiarismButton">
+            <constraints border-constraint="West"/>
+            <properties>
+              <hideActionText value="false"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Calculate Plagiarism"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
